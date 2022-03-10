@@ -19,20 +19,14 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: auto;
 }
-
 .container .img {
   margin-top: 56px;
   margin-left: 30px;
 }
-
 .container .text {
   color: white;
   margin-top: 95px;
@@ -40,7 +34,6 @@ body {
   padding-left: 90px;
   margin-left: -30px;
 }
-
 .container .text .heading-text {
   display: block;
   font-family: "Poppins", sans-serif;
@@ -49,7 +42,6 @@ body {
   margin-bottom: 24px;
   width: 80%;
 }
-
 .container .text p {
   font-size: 20px;
   font-weight: 400;
@@ -58,7 +50,6 @@ body {
   line-height: 1.5;
   width: 94%;
 }
-
 .container .text .button {
   margin-top: 30px;
   width: 200px;
@@ -71,10 +62,9 @@ body {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  -webkit-box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.25);
-          box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+  box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.25);
 }
-
 .container .text .button:hover {
   background-color: #e882e8;
   color: white;
@@ -84,18 +74,12 @@ body {
   float: right;
   width: 180px;
   height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   margin-right: 150px;
   margin-top: -15px;
 }
-
 .icons .fa-brands {
   font-size: 20px;
   padding: 10px;
@@ -103,19 +87,12 @@ body {
   border: 2px solid white;
   width: 15px;
   height: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 50px;
   cursor: pointer;
 }
-
 .icons .fa-brands:hover {
   color: #dc41dc;
   border-color: #dc41dc;
@@ -125,11 +102,9 @@ footer {
   text-align: center;
   margin-top: 40px;
 }
-
 footer .attribution {
   font-size: 11px;
 }
-
 footer .attribution a {
   color: white;
 }
@@ -139,6 +114,7 @@ footer .attribution a {
     background-image: url(../images/bg-mobile.svg);
     background-size: contain;
   }
+
   .logo {
     height: auto;
     width: auto;
@@ -147,11 +123,9 @@ footer .attribution a {
   .logo img {
     width: 35%;
   }
+
   .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 50px;
     text-align: center;
   }
@@ -182,13 +156,13 @@ footer .attribution a {
     margin: 40px auto 0;
     height: 50px;
   }
+
   .icons {
     margin: 70px auto 0;
     width: 150px;
     float: none;
   }
 }
-
 @media (max-width: 600px) {
   .container .text .heading-text {
     font-size: 1.5rem;
@@ -199,5 +173,4 @@ footer .attribution a {
   .container .text .button {
     width: 80%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
